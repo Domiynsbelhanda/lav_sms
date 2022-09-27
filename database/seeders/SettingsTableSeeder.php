@@ -16,14 +16,14 @@ class SettingsTableSeeder extends Seeder
         DB::table('settings')->delete();
 
         $data = [
-            ['type' => 'current_session', 'description' => '2018-2019'],
-            ['type' => 'system_title', 'description' => 'CJIA'],
-            ['type' => 'system_name', 'description' => 'CJ INSPIRED ACADEMY'],
-            ['type' => 'term_ends', 'description' => '7/10/2018'],
-            ['type' => 'term_begins', 'description' => '7/10/2018'],
-            ['type' => 'phone', 'description' => '0123456789'],
-            ['type' => 'address', 'description' => '18B North Central Park, Behind Central Square Tourist Center'],
-            ['type' => 'system_email', 'description' => 'cjacademy@cj.com'],
+            ['type' => 'current_session', 'description' => '2022-2023'],
+            ['type' => 'system_title', 'description' => 'VINCO'],
+            ['type' => 'system_name', 'description' => 'VINCO DIGITAL'],
+            ['type' => 'term_ends', 'description' => '1/10/2022'],
+            ['type' => 'term_begins', 'description' => '1/10/2022'],
+            ['type' => 'phone', 'description' => '+243 999 999 999'],
+            ['type' => 'address', 'description' => '265, KASONGO NYEMBO, Lubumbashi, DRC'],
+            ['type' => 'system_email', 'description' => 'sms@vinco.digital'],
             ['type' => 'alt_email', 'description' => ''],
             ['type' => 'email_host', 'description' => ''],
             ['type' => 'email_pass', 'description' => ''],
