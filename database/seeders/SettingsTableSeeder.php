@@ -18,7 +18,7 @@ class SettingsTableSeeder extends Seeder
         $data = [
             ['type' => 'current_session', 'description' => '2022-2023'],
             ['type' => 'system_title', 'description' => 'VINCO'],
-            ['type' => 'system_name', 'description' => 'VINCO DIGITAL'],
+            ['type' => 'system_name', 'description' => 'VINCO SMS'],
             ['type' => 'term_ends', 'description' => '1/10/2022'],
             ['type' => 'term_begins', 'description' => '1/10/2022'],
             ['type' => 'phone', 'description' => '+243 999 999 999'],
